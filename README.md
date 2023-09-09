@@ -1,5 +1,6 @@
 # Vespera
-Vespera is a network framework that attempts to minimize the size of packets; works as an emulator of Roblox's Remote- Events &amp; Functions
+Vespera is a network framework that attempts to minimize the size of packets. 
+Vespera works as an emulator of Roblox's Remote- Events &amp; Functions
 
 ## Explanation
 
