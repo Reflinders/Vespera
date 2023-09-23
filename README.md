@@ -1,5 +1,5 @@
 # Vespera
-Vespera is a network framework that attempts to minimize the size of packets. 
+Vespera is a network framework that minimizes the size of packets. 
 Vespera works as an emulator of Roblox's Remote- Events &amp; Functions
 
 ## Explanation
@@ -56,7 +56,7 @@ local a; newChain:Invoke():andThen(function(v)
 end)
 ```
 
-# Preservation
+## Preservation
 
 Because of how Roblox's remote- events and functions work, arrays that are out-of-order, mixed tables, and functions cannot be exchanged between server & client. And so to fix that solution, I've implemented two systems: `Preserve` and `Task`. First, I'll go over `Preserve`, then I'll discuss `Task` — `Preserve` (access through `Vespera.Preserve`) is used to preserve mixed tables. Simply pass the mixed table as the first argument and Vespera will do the rest of the work. `Task` (access through `Vespera.Task`) is used to preserve functions. The first argument is the ModuleScript in which the function can be found and the second argument is the key/alias of the function. Refer to the figures below:
 
