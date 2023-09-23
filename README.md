@@ -4,7 +4,7 @@ Vespera works as an emulator of Roblox's Remote- Events &amp; Functions
 
 ## Explanation
 
-You may be asking: how does vespera work? In a nutshell, vespera acts as a middleman that compresses and then decompresses data on both ends. Vespera compresses tables & strings. 
+You may be asking: how does vespera work? In a nutshell, Vespera acts as a middleman that compresses and then decompresses data on both ends. Vespera compresses tables & strings. 
 Additionally, Vespera has a 60 calls/second rate limit on the server (and a 8 invocation/second rate).
 
 ## Starting
