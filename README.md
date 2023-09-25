@@ -72,10 +72,10 @@ A Lot is quite basic — It's just a dictionary of chains with a `Destroy` metho
 
 ```lua
 -- Script 1
-local Lot = Vespera.Lot("Code", {"hi", "yup"})
+local Lot = Vespera.lot("Code", {"hi", "yup"})
 
 -- Script 2
-local Lot = Vespera.Lot("Code") -- Will fetch the already existing one; any attempt to overwrite an existing one will fail!
+local Lot = Vespera.lot("Code") -- Will fetch the already existing one; any attempt to overwrite an existing one will fail!
 ```
 
 ## Preservation
